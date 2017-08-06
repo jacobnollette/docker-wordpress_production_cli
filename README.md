@@ -1,8 +1,8 @@
-# docker-wordpress_development_cli
+# docker-wordpress_production_cli
 
 This repository realise on the following resource for build...
-[dockerhub/jnollette/wordpress_development](https://hub.docker.com/r/jnollette/wordpress_development/)
-[github/jnollette/docker-wordpress_development](https://github.com/jnollette/docker-wordpress_development)
+[dockerhub/jnollette/wordpress_production](https://hub.docker.com/r/jnollette/wordpress_production)
+[github/jnollette/docker-wordpress_production](https://github.com/jnollette/docker-wordpress_production)
 
 This docker file also uses the Wordpress CLI file, which is a PHP *.phar executable - [wp-cli](http://wp-cli.org/).
 
