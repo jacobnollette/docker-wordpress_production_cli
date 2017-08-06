@@ -1,4 +1,4 @@
-FROM jnollette/wordpress_development:latest
+FROM jnollette/wordpress_production:latest
 
 # Install requirements for wp-cli support
 RUN apt-get update \
