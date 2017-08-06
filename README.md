@@ -11,8 +11,10 @@ Here is an example docker-compose file - (gist)[https://gist.github.com/jnollett
 To use, simply run: 
 	docker-compose up -d;
 
-	docker-compose run wordpress wp <command>;
+	docker-compose run --rm wordpress wp <command>;
 	or
-	docker-compose -f <yaml-file> run wordpress wp <command>;
+	docker-compose -f <yaml-file> run --rm wordpress wp <command>;
 
-Please feel free to fork and use for your own projects.
+
+This project was forked from this (tutorial)[https://medium.com/@tatemz/using-wp-cli-with-docker-21b0ab9fab79]
+Please feel free to fork and use for your own projects. 
